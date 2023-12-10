@@ -1,0 +1,154 @@
+/* Navbar.css */
+@font-face{
+  src: url(../Assets/Fonts/Cyberpunk.ttf);
+  font-family: cyberpunk;
+}
+.cosmicwear-container1 {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  min-width: 369px;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background-color 0.3s ease;
+  background: black;
+}
+
+.cosmicwear-container1.fixed {
+  background-color: black;
+}
+
+.cosmic-wear-header {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 76px;
+  position: relative;
+}
+
+.cosmic-wear-title {
+  flex: 0 0 auto;
+  font: 500 50px ;
+  color: rgb(255, 255, 255);
+  font-family: cyberpunk;
+}
+
+.cosmicwear-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.shop-container {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.shop-list {
+  list-style-type: none;
+}
+
+.shop-list li {
+  cursor: pointer;
+  position: relative;
+}
+
+.shop-list li a {
+  text-decoration: none;
+  color: black;
+  font: 400 16px Satoshi;
+}
+
+.shop-list li.active a {
+  color: black;
+}
+
+.svg-container {
+  display: flex;
+  flex: 0 0 auto;
+  width: 16px;
+  height: 16px;
+  margin-left: 4px;
+}
+
+.product-grid {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 376px;
+}
+
+.svg-container1,
+.svg-container2 {
+  display: flex;
+  flex: 0 0 auto;
+  width: 24px;
+  height: 24px;
+  color: rgba(31, 31, 31, 1);
+}
+
+.svg-container2 {
+  margin-left: 32px;
+}
+
+.icon-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin-left: 8px;
+}
+
+.icon-gap {
+  width: 20px;
+}
+
+.cart-item-count {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+  position: absolute;
+  top: -8px; 
+  right: 65px;
+}
+@media (max-width: 767px) {
+  .product-grid {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 0;
+  }
+  .shop-container{
+    margin-right: 25px;
+    margin-top: 7px;
+  }
+  .svg-container1 {
+    margin-right: 0;
+    margin-top: 0;
+  }
+ 
+  .icon-gap {
+    width: 0;
+  }
+
+  .cosmic-wear-title {
+    font-size: 20px; 
+  }
+.cart-item-count {
+  margin-top: 25px;
+}
+}

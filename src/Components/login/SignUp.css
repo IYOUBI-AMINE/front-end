@@ -1,0 +1,47 @@
+.body{
+ min-width: 1339px;
+}
+
+.sform {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.sform  input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.ass {
+  margin-top: 10px;
+}
+
+.sub-btn {
+  background-color: #050505;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sub-btn:hover {
+  background-color: #413a3a;
+}
+
+.vlink {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.vlink:hover {
+  text-decoration: underline;
+}

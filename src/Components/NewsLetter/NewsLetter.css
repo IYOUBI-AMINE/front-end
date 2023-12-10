@@ -1,0 +1,173 @@
+.deal-of-the-day-container1 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center; 
+    max-width: 1139px;
+    margin: 0 auto; 
+    background:rgb(0, 0, 0);
+    border: 1px solid rgb(124, 133, 134);
+    border-radius: 20px;
+    box-shadow: 0 6px 20px 0 rgba(1, 1, 1, 1);
+  }
+  
+  .deal-of-the-day-container {
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding-top: 70px;
+    padding-bottom: 66px;
+    
+  }
+  
+ 
+  
+  
+  
+  .deal-of-the-day-title {
+    flex:  auto;
+    font: 700 48px Frank Ruhl Libre;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    margin-left: 20px
+    
+  }
+  
+  .deal-description {
+    flex: 0 0 auto;
+    margin-top: 7px;
+    font: 400 18px/180% Lato;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: 20px
+    
+  }
+  
+  .countdown-timer-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    gap: 18px;
+    align-items: flex;
+    justify-content: flex;
+    margin-top: 29px;
+    margin-left: 20px
+    
+    
+  }
+  
+  .countdown-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 11px 25px 17px 26px;
+    background: rgba(255, 255, 255, 1);
+    
+  }
+  
+  .countdown-days {
+    flex: 0 0 auto;
+    align-self: stretch;
+    font: 700 42px Lato;
+    color: rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+  }
+  
+  .countdown-days1 {
+    flex: 0 0 auto;
+    margin-top: 3px;
+    font: 400 16px Lato;
+    color: rgba(0, 0, 0, 1);
+    text-transform: capitalize;
+  }
+  
+  .time-container {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px 25px 14px 26px;
+    background: rgba(255, 255, 255, 1);
+  }
+  
+  .button button {
+    --b: 3px;
+    --s: 0.45em;
+    --color: #ffffff;
+  
+    padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0)
+      var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p)) calc(100% - var(--b) - 2 * var(--_p));
+    transition: 0.3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: 0.6em;
+    font-size: 20px;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 10px;
+  }
+  
+  .button button:hover,
+  .button button:focus-visible {
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: 0.05em;
+  }
+  
+  .button button:active {
+    background: var(--color);
+    color: #fff;
+  }
+ 
+  .gradient-box {
+    position: absolute;
+    left: 152px;
+    box-sizing: border-box;
+    width: 379px;
+    height: 325px;
+    background: linear-gradient(0deg, #d3a17e 121.17%, rgba(211, 161, 126, 0) -15.88%);
+    opacity: 0.6000000238418579;
+    
+  }
+  
+  .container {
+    position: absolute;
+    top: 20px;
+    box-sizing: border-box;
+    width: 444px;
+    height: 484px;
+    border-radius: 20px;
+  }
+  
+  
+  
+  .image-container1 {
+    position: relative;
+    box-sizing: border-box;
+    width: 400px;
+    height: 431px;
+    margin-bottom: auto;
+    overflow: hidden;
+    border-radius: 0 20px 0 20px;
+    box-shadow: 0 6px 20px 0 rgba(1, 1, 1, 1);
+  }
+  
+  .image-container1 img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+    
+  }
+  
